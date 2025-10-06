@@ -1,0 +1,70 @@
+/* Fonts */
+
+
+
+body {
+    font-family: poppins, sans-serif;
+}
+
+
+
+/* Nav */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 0px 10px 0px;
+    color: #333;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0px 40px 0px 0px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #18bc9c;
+}
+
+/* Hero Section */
+
+.hero-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 4rem;
+    font-family: "indie flower", cursive;
+}
+
+.hero p {
+    margin: 0;
+    font-size: 20px;;
+}
+
+
+
