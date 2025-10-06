@@ -1,9 +1,14 @@
-/* Fonts */
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 body {
     font-family: poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
 }
 
 
@@ -12,16 +17,20 @@ body {
 
 .navbar {
     display: flex;
+    height: 60px;
     justify-content: space-between;
     align-items: center; 
-    padding: 10px 0px 10px 0px;
     color: #333;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .logo {
+    padding: 0;
+    margin: 0 0 0 40px;
     font-size: 1.2rem;
     font-weight: bold;
-    margin-left: 10px;
+    line-height: 1;
 }
 
 .nav-links {
@@ -48,6 +57,7 @@ body {
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    padding: 100px;
     height: 30vh
 }
 
@@ -66,5 +76,144 @@ body {
     font-size: 20px;;
 }
 
+/* Grid */
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 10px;
+}
 
+.grid-container h2 {
+    margin-top: 0;
+    font-size: 3rem;
+    font-family: "indie flower", cursive;
+}
+
+/* Section style */
+
+.box {
+    padding: 20px;
+}
+
+.box:last-child {
+    border-right: none;
+}
+
+/* Project */
+
+.project ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project li {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.project li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.project li a:hover {
+    color: #18bc9c;
+}
+
+/* Work and Wiki */
+.work-wiki-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.work p {
+    font-size: 15px;
+}
+
+.work a {
+    text-decoration: none;
+}
+
+.wiki a {
+    text-decoration: none;
+}
+
+/* Education */
+
+
+/* Review */
+
+.review h1 {
+    font-family: "indie flower", cursive;
+    margin-left: 20px;
+}
+
+/* Card */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+
+.review-card {
+    width: 300px;
+    pad: 25px;
+    border-radius: 40px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.review-text {
+    display: flex;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+.reviewer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.reviewer-name {
+    font-weight: 600;
+    color: #555; 
+    margin-bottom: 4px;
+}
+
+
+.reviewer-title {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #999; 
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+    padding: 100px 0 100px 0;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+}
 
